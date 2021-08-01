@@ -1,0 +1,45 @@
+// background
+@mixin bg-color {
+    background: -webkit-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
+    background: -moz-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
+    background: -o-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
+    background: linear-gradient(to bottom right, #50a3a2 0%, #53e3a6 100%);
+}
+
+// container
+@mixin container {
+    max-width: 800px;
+    margin: 0 auto 25px;
+    padding:25px;
+    background-color: rgba(255, 255, 255, 0.05);
+    color: white;
+    border: 3px solid white;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 10px;
+}
+
+// center content
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// button
+@mixin button {
+    margin: 15px auto 0;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.35);
+    color: black;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+    @include center;
+    border: 2px solid white;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 10px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: rgba(255, 255, 255, 0.6);
+    }
+}

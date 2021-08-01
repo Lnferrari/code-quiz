@@ -1,0 +1,11 @@
+.header {
+    @include container;
+    text-align: center;
+    
+
+    h1 {
+        margin-bottom: 10px;
+        text-shadow: 1px 1px 1px black;
+    }
+}
+

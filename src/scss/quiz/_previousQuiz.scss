@@ -1,0 +1,15 @@
+.home {
+    @include container;
+
+    p {
+        margin-bottom: 20px;
+    }
+
+    button {
+        @include button;
+
+        span {
+            margin-right: 5px;
+        }
+    }
+}

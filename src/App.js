@@ -1,23 +1,37 @@
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import './App.css';
-import { useHistory } from 'react-router';
 import Home from './Components/Home'
 import Quiz from './Components/Quiz';
 
 
 const App = () => {
 
-  const hero = (
-    <div>
-      <h1>React code quiz</h1>
+  const header = (
+    <div className='header'>
+      <h1>Code quiz</h1>
       <p>Check your knowledge!</p>
     </div>
   )
+  
+  const backgroundBubbles = (
+    <ul className="bg-bubbles">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  )  
 
   return (
-    <div>
+    <>
       <Router>
-        {hero}
+        {header}
+        {backgroundBubbles}
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/quiz' >
@@ -25,7 +39,7 @@ const App = () => {
           </Route>
         </Switch>
       </Router>
-    </div>
+    </>
   );
 }
 

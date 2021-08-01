@@ -3,8 +3,8 @@ import React from 'react'
 const Answer = ({options, onChange, onSubmit, answers}) => {
 
     let answer = options.answers.map((opt, i) => (
-        <div className="option" key={i}>
-            <input type="checkbox" name={i} checked={answers[i]} onChange={(e) => onChange(e)}/>
+        <div className={`option ${answers[i] ? 'checked' : ''}`} key={i}>
+            <input  type="checkbox" name={i} checked={answers[i]} onChange={(e) => onChange(e)}/>
             <label>{opt.text}</label> 
         </div>
     ))
