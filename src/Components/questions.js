@@ -253,7 +253,7 @@ export default {
         question: "What is the result of the following code?",
         code: 'const result = 1 + Number("2") + "3";',
         language: "javascript",
-        answers: [{ text: "13" }, { text: "18" }, { text: "22" }],
+        answers: [{ text: "33" }, { text: "18" }, { text: "22" }],
         solutions: [0]
     },
     "913db727-61c5-4968-b244-fb015a1f0e74": {
