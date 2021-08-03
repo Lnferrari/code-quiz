@@ -34,7 +34,7 @@ const App = () => {
         {backgroundBubbles}
         <Switch>
           <Route path='/' exact component={Home} />
-          <Route path='/code-quiz/quiz' exact component={Quiz}>
+          <Route path='/quiz' component={Quiz}>
           </Route>
         </Switch>
       </Router>
