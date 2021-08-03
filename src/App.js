@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch, Redirect} from 'react-router-dom';
 import Home from './Components/Home'
 import Quiz from './Components/Quiz';
 
@@ -33,9 +33,8 @@ const App = () => {
         {header}
         {backgroundBubbles}
         <Switch>
-          <Route path='/' exact component={Home} />
-          <Route path='/quiz' >
-            <Quiz  />
+          <Route path='/code-quiz/' exact component={Home} />
+          <Route path='/code-quiz/quiz' exact component={Quiz}>
           </Route>
         </Switch>
       </Router>

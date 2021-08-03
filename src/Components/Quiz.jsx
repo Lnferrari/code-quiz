@@ -54,7 +54,7 @@ const Quiz = ({history}) => {
                     <Question question={questionsBank[currentQuestion]} />
                     <Answer options={questionsBank[currentQuestion]} onChange={selectAnswerHandler} onSubmit={submitAnswerHandler} answers={selectedAnswers} />
                 </>
-            ) : <Score score={score} history={history} />}
+            ) : <Score score={score} />}
             
         </div>
     )

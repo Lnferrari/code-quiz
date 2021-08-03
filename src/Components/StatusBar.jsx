@@ -1,12 +1,6 @@
 import React from 'react'
-import { pulse } from 'react-animations'
-import styled, { keyframes } from 'styled-components'
 
 const StatusBar = ({current, length, score}) => {
-
-    const Pulse = styled.span`
-        animation: 1s ${keyframes`${pulse}`} infinite
-    `;
 
     return (
         <div className='statusBar'>
