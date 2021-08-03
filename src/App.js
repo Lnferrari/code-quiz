@@ -33,7 +33,7 @@ const App = () => {
         {header}
         {backgroundBubbles}
         <Switch>
-          <Route path='/code-quiz/' exact component={Home} />
+          <Route path='/' exact component={Home} />
           <Route path='/code-quiz/quiz' exact component={Quiz}>
           </Route>
         </Switch>
