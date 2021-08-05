@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/code-quiz/static/css/main.652eda7c.chunk.css",
-    "main.js": "/code-quiz/static/js/main.094dff7c.chunk.js",
-    "main.js.map": "/code-quiz/static/js/main.094dff7c.chunk.js.map",
+    "main.js": "/code-quiz/static/js/main.7223810b.chunk.js",
+    "main.js.map": "/code-quiz/static/js/main.7223810b.chunk.js.map",
     "runtime-main.js": "/code-quiz/static/js/runtime-main.78cef643.js",
     "runtime-main.js.map": "/code-quiz/static/js/runtime-main.78cef643.js.map",
-    "static/js/2.839fafc5.chunk.js": "/code-quiz/static/js/2.839fafc5.chunk.js",
-    "static/js/2.839fafc5.chunk.js.map": "/code-quiz/static/js/2.839fafc5.chunk.js.map",
+    "static/js/2.8a8cc2f3.chunk.js": "/code-quiz/static/js/2.8a8cc2f3.chunk.js",
+    "static/js/2.8a8cc2f3.chunk.js.map": "/code-quiz/static/js/2.8a8cc2f3.chunk.js.map",
     "index.html": "/code-quiz/index.html",
     "static/css/main.652eda7c.chunk.css.map": "/code-quiz/static/css/main.652eda7c.chunk.css.map",
-    "static/js/2.839fafc5.chunk.js.LICENSE.txt": "/code-quiz/static/js/2.839fafc5.chunk.js.LICENSE.txt"
+    "static/js/2.8a8cc2f3.chunk.js.LICENSE.txt": "/code-quiz/static/js/2.8a8cc2f3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.78cef643.js",
-    "static/js/2.839fafc5.chunk.js",
+    "static/js/2.8a8cc2f3.chunk.js",
     "static/css/main.652eda7c.chunk.css",
-    "static/js/main.094dff7c.chunk.js"
+    "static/js/main.7223810b.chunk.js"
   ]
 }
